@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-model=pickle.load(open('iplmodel (1).pkl','rb'))
+model=pickle.load(open('iplmodel.pkl','rb'))
 
 df=pd.read_csv('TataIplcleaned.csv')
 
